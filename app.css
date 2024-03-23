@@ -1,0 +1,34 @@
+body {
+  background:linear-gradient(to left, lightgreen,lightblue);
+  scroll-behavior: smooth;
+  position: relative;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section > h1 {
+  text-align: center;
+}
+.form {
+  box-shadow: 5px 5px 30px black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 500px;
+  background-color: rgba(26, 26, 26, 0.778);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px 0px;
+  color: white;
+}
+nav{
+    position: fixed !important;
+    width: 100%;
+}
